@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css"/>
+        <style type="text/css">
+            body{
+                font-family: Arial,Helvetica, sans-serif;
+                background-image:url('bg.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                color: honeydew;
+                overflow: hidden;
+            }
+            a{
+                font-size: 30px;
+                color: honeydew;
+                text-align:center; 
+                font-family: cursive;
+                text-decoration: none;
+                
+            }            
+            h3{
+                text-align: center; 
+                height: 150px; 
+                margin-top: 50px; 
+                margin-bottom: 50px; 
+                font-size: 50px; 
+                font-family: cursive; 
+                text-decoration: none;
+            }
+            button{
+                border-radius: 25px;
+                border-width: 0.5px;
+                box-shadow: box-size;
+                border-color: honeydew;
+                background-color: rgba(165, 50, 194, 0.788);
+
+            }
+            button:hover {
+                background-color: #77095cc0; /* Green */
+                color: white;
+                transition: 1s;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+            .b1{
+                animation-duration: 3s;
+                animation-name: slidel;
+            }
+
+            @keyframes slidel {
+            from {
+                margin-left: 70%;
+            }
+
+            to {
+                text-align: center;
+            }
+            }
+
+            .b2{
+                animation-duration: 3s;
+                animation-name: slidr;
+            }
+
+            @keyframes slidr {
+            from {
+                margin-right: 70%;
+            }
+
+            to {
+                text-align: center;
+            }
+            }
+            
+
+            
+        </style>
+    </head>
+    <body>
+        <h3>V4 PHARMACY!!</h3>              
+        <br><!-- comment -->
+    <center>
+        <button class="b1" type="button"><a href="insertnew.html">NEW ENTRY(STOCK)</a></button>
+        <br><br><br>  
+        <button class="b2" type="button"><a href="update.html">UPDATE STOCK</a></button>
+        <br><br><br>
+        <button class="b1" type="button"><a href="disp.php">STOCK DETAILS </a></button>
+    
+    </center>
+    </body>
+</html>
